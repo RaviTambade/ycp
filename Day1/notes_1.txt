@@ -1,0 +1,78 @@
+
+
+
+
+Post Lunch session:
+
+Software , Hardware
+Firmware
+System Softwarwe: Operating System
+Examples of OS: Unix, Windows, Linux, Mac Os,  Android
+Unix commands are compiled C cosole Applications
+	Linux commands :ls, mkdir, cd, sudo , getch, whoami, pwd
+	Liunx shell
+C Programming used for Systems programming
+		   for building your embedded systems
+		   for building your firmwawre
+		   for building device drivers
+	           for building Operating systems
+		   for building application softwares (desktop, distributed)
+		   for building Tools ( compilers ,linkers, parser,
+					loaders, debuggers,etc.)
+		   for building IDE ( Visual studio, Eclipse, etc.)
+
+
+C Programming Culture
+	 any text editor to write C  program
+	 source of C  is written in text file with extenion .c
+	 each C program should contain entry point function main
+	 C program may contain inbuilt functions such printf, scanf,etc.
+	 inbuilt functions are defined in header files such as stdio.h
+         Header files are included into C source code  using preprocessor #include
+	 Constant can be defined using macros  #define PI 3.14
+	 data is kept into variable  int count=56;
+	 varaibles  could be global or local 
+	 variables are initialized with values.
+
+
+
+Development process of C PRogramm
+
+	use Vs  Code/ text editor---------.c files ------source code folder
+					  .h files
+
+Build process of C Program
+
+	compile-----Link
+
+      .c------compiler-------.obj---------linker------.exe
+
+
+Running executable file using OS
+	.exe -----OS-------process-----thread------CPU ( Central Processing Unit)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		   
