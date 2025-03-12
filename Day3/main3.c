@@ -11,6 +11,8 @@ struct Student{
 
 struct Student students[SIZE];  //array of 10 students
 
+
+//CRUD operations
 void acceptAll(){
     for(int i = 0; i < SIZE-1; i++){
         printf("Enter details of student %d\n", i+1);
@@ -49,6 +51,7 @@ void update(int index){
     scanf("%f", &students[index].marks);
 }
 
+//Entry Point Function
 int main(){
     acceptAllStudentDetails();
     showAll();
