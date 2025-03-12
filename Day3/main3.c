@@ -11,7 +11,7 @@ struct Student{
 
 struct Student students[SIZE];  //array of 10 students
 
-void acceptAllStudentDetails(){
+void acceptAll(){
     for(int i = 0; i < SIZE-1; i++){
         printf("Enter details of student %d\n", i+1);
         printf("Enter name: ");
@@ -32,7 +32,7 @@ void showAll(){
     }
 }
 
-void showDetails(int index){
+void show(int index){
     printf("\n Student Details\n");
     printf("Name: %s\n", students[index].name);
     printf("Age: %d\n", students[index].age);
@@ -57,7 +57,7 @@ int main(){
     printf("Enter index to show details: ");
     scanf("%d", &index);
    
-    showDetails(index);
+    show(index);
     update(index);
     showAll();
     return 0;
