@@ -1,16 +1,16 @@
-//header files including
+//Console Menu Driven Student Information management system
+
 #include <stdio.h>
 #define MAX 50
 #define SIZE 3
 
 struct Student{
-    char name[MAX];
+    char name[50];
     int age;
     float marks;
 };
-
+ 
 struct Student students[SIZE];  //array of 10 students
-
 
 //CRUD operations
 void acceptAll(){
@@ -51,17 +51,26 @@ void update(int index){
     scanf("%f", &students[index].marks);
 }
 
-//Entry Point Function
-int main(){
-    acceptAll();
-    showAll();
+int main() {
+    int choice;
+    while (1) {
+        printf("\nStudent Information Management System\n");
+        printf("=======================================\n");
+        printf("1. Add New Student\n");
+        printf("2. View All Students\n");
+        printf("3. Update Student Information\n");
+        printf("4. Delete Student\n");
+        printf("5. Exit\n");
+        printf("Enter your choice (1-5): ");
+        scanf("%d", &choice);
 
-    int index;
-    printf("Enter index to show details: ");
-    scanf("%d", &index);
-   
-    show(index);
-    update(index);
-    showAll();
-    return 0;
+        switch (choice) {
+            case 1: acceptAll(); break;
+            case 2: showAll(); break;
+            case 3: update(2); break;
+            case 4: delete(1); break;
+            case 5: return 0;
+            default: printf("Invalid choice. Try again.\n");
+        }
+    }
 }
