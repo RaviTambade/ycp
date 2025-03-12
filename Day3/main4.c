@@ -51,6 +51,12 @@ void update(int index){
     scanf("%f", &students[index].marks);
 }
 
+void delete(int index){
+    printf("\n Delete Existing  %d th Student Details\n", index+1);
+    students[index].age = 0;
+    students[index].marks = 0;
+    students[index].name[0] = '\0'; //null character to indicate empty string
+}
 int main() {
     int choice;
     while (1) {
