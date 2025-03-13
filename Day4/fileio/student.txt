@@ -1,0 +1,4 @@
+Name :sanika
+rollno :1
+age :1
+marks :1
