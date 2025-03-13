@@ -64,7 +64,7 @@ void remove(int index){
 }
 
 int main() {
-
+    struct Student std1;
     int result=765;
     int marks=89;
     int *ptrResult=&result;
@@ -97,7 +97,8 @@ int main() {
     int * ptrStockAvailable=NULL;
     ptrStockAvailable=(int *)malloc(sizeof(int));
     *ptrStockAvailable=100;
-  
+   
+
     int byteInt=sizeof(int);
     int byteFloat=sizeof(float);
     int byteChar=sizeof(char);
@@ -108,7 +109,7 @@ int main() {
     printf("Size of char: %d\n", byteChar);
     printf("Size of Struct Student std1: %d\n", bytesStudentStruct);
 
-    struct Student std1;
+    
     strcpy(std1.name,"Reena");
     std1.age=21;
     std1.marks=89.5;
@@ -125,6 +126,7 @@ int main() {
     strcpy(ptrStudent->email,"ravi.tambade@gamil.com");
     strcpy(ptrStudent->address,"Pune, Maharashtra, India");
 
+    return 0;
 
 
 }
