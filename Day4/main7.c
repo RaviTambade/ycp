@@ -164,3 +164,23 @@ int main() {
     }
     return 0;
 }
+
+
+//Command to compile and run: 
+//g++ -I c main7.c -o main7.exe
+//.\main7.exe
+
+//Output:
+//Menu:
+//1. Add Student
+//2. View Students
+//3. Update Student
+//4. Delete Student
+//5. Exit
+
+//Enter your choice: 1
+//Enter Student ID: 1
+//Enter Student Name: John Doe
+//Enter Marks: 85
+//Student added successfully.
+
