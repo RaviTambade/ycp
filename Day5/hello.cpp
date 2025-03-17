@@ -20,16 +20,16 @@ class Point{
             int x;
             int y;
     public:
-              Point(int a, int b)
+            Point(){
+                x=y=0;
+            }
+            Point(int a, int b)
             {
                 x = a;
                 y = b;
                 cout<<"Point object created"<<endl;
             }
-            void show()
-            {
-                cout<<"X:"<<x<<" Y:"<<y<<endl;
-            }
+           
             ~Point()
             {
                 cout<<"Point object destroyed"<<endl;
@@ -139,6 +139,6 @@ int main()
 
 
     Point startPoint(45,67);
-    Point endPoint();
+    Point endPoint;
     return 0;
 }
