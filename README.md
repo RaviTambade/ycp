@@ -12,6 +12,3 @@ It's widely used for developing software such as game engines, operating systems
 - <a href="https://github.com/RaviTambade/ycp/tree/main/CPP/notes/operators.md">C++ Operators</a>
 - <a href="https://github.com/RaviTambade/ycp/tree/main/CPP/notes/oops.md">Object Oriented Programming</a>
 - <a href="https://github.com/RaviTambade/ycp/tree/main/CPP/notes/staticmembers.md">Static Members</a>
-- <a href="https://github.com/RaviTambade/ycp/tree/main/CPP/notes/Reflection.md">Reflection</a>
-- <a href="https://github.com/RaviTambade/ycp/tree/main/CPP/notes/Serialization.md">Serialization</a>
-- <a href="https://github.com/RaviTambade/ycp/tree/main/CPP/notes/delegate.md">Delegates</a>
