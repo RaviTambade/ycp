@@ -50,6 +50,7 @@ int main(){
         cout<<"Option 5: Exit"<<endl;
 
         cin>>option;
+        
         switch(option){
             case 1:
                 result=calc.addition(num1,num2);

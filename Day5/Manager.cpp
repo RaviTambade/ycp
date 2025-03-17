@@ -35,8 +35,10 @@ class Manager {
 int main()
 {
    
-    Manager mgr1;
-    Manager mgr2("Rajiv Nene",30000);
+    Manager mgr1,mgr56;
+    Manager mgr2;
+    Manager mgr3;
+    Manager mgr4("Rajiv Nene",30000);
     int objectCount=Manager::getCount();
     cout<<"Number of instance of class manager="<<objectCount;
 
