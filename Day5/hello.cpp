@@ -136,12 +136,9 @@ int main()
     cout<<ptrPerson213->getAge()<<ptrPerson213->getName()<<endl;
     ptrPerson213->show();
     delete ptrPerson213;
-    
+
 
     Point startPoint(45,67);
     Point endPoint();
-
-
-
     return 0;
 }
