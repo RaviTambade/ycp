@@ -3,7 +3,7 @@ C++ is a powerful, general-purpose programming language that supports both proce
 
 It's widely used for developing software such as game engines, operating systems, embedded systems, and high-performance applications. Learning C++ involves understanding its syntax, data types, control structures, and advanced concepts like pointers, references, and templates.
 
-
+- <a href="https://github.com/RaviTambade/ycp/tree/main/C/notes/cprogramming.md">Essential C</a>
 - <a href="https://github.com/RaviTambade/ycp/tree/main/CPP/notes/historycpp.md">Histroy of C++</a>
 - <a href="https://github.com/RaviTambade/ycp/tree/main/CPP/notes/whycpp.md">Why C++ ?</a>
 - <a href="https://github.com/RaviTambade/ycp/tree/main/CPP/notes/cvscpp.md">C vs C++</a>
