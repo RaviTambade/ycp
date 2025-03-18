@@ -73,14 +73,7 @@ int main(){
     Shape *ptrShape=NULL;
     ptrShape=(Shape *)&l1;
     ptrShape->draw();
-
-
     ptrShape=(Shape *)&t1;
     ptrShape->draw();
-
-
-
-
     cout<<"Welcome to Graphics"<<endl;
-
 }
