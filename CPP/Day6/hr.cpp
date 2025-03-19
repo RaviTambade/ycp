@@ -15,7 +15,9 @@ namespace HR {
     public:
         // Constructor
         Employee(string empName, int empID, double salary)
-            : name(empName), employeeID(empID), basicSalary(salary) {}
+            : name(empName), employeeID(empID), basicSalary(salary) {
+                
+            }
 
         // Virtual function to calculate salary, can be overridden in derived classes
         virtual double calculateSalary() {

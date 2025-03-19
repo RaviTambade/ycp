@@ -11,4 +11,14 @@ It's widely used for developing software such as game engines, operating systems
 - <a href="https://github.com/RaviTambade/ycp/tree/main/CPP/notes/cpptokens.md">C++ Tokens</a>
 - <a href="https://github.com/RaviTambade/ycp/tree/main/CPP/notes/operators.md">C++ Operators</a>
 - <a href="https://github.com/RaviTambade/ycp/tree/main/CPP/notes/oops.md">Object Oriented Programming</a>
+- <a href="https://github.com/RaviTambade/ycp/blob/main/CPP/notes/copyconstructor.md">Copy Constructors</a>
+- <a href="https://github.com/RaviTambade/ycp/blob/main/CPP/notes/shallowdeep.md">Shallow Copy / Deep Copy</a>
+
 - <a href="https://github.com/RaviTambade/ycp/tree/main/CPP/notes/staticmembers.md">Static Members</a>
+- <a href="https://github.com/RaviTambade/ycp/tree/main/CPP/notes/constantfunction.md">constant Member Functions</a>
+
+- <a href="https://github.com/RaviTambade/ycp/blob/main/CPP/notes/friendincpp.md">Shallow Copy / Deep Copy</a>
+
+- <a href="https://github.com/RaviTambade/ycp/tree/main/CPP/notes/operatoroverloading.md">Operator Overloading</a>
+- <a href="https://github.com/RaviTambade/ycp/tree/main/CPP/notes/hasaisa.md">Class Relationship</a>
+- <a href="https://github.com/RaviTambade/ycp/tree/main/CPP/notes/inheritance.md">Inheritance</a>
