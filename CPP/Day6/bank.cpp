@@ -13,11 +13,14 @@ class Date{
     //static polymorphism
     //compile time polymorphism
     //early binding
+    //default constructor
     Date(){
         day=31;
         month=3;
         year=2025;
     }
+
+    //parameterized constructor
     Date(int d, int m, int y){
         day=d;
         month=m;
@@ -138,7 +141,38 @@ int main(){
     dd.show();
     */
 
-    Date date(18,3,2025);
+   // data type  variable  = assignment operator value
+    
+    int result;  //declaration
+
+    //declaration with initialization
+    bool status=true;
+    char ch='A';
+    int count=45;       //C Syntax
+
+    //C++
+    //datatype variable
+    //class   object()  ---- initializing with constructor
+
+    //Application memories;
+    //stack memory
+    //heap memory   Dynamic Memory Allocation
+    // in C   programming malloc()   and free()
+    // in C++ programming new and delete
+
+    Date   mydate;            //default constructor
+    Date   date(18,3,2025);  //Parameterized constructor
+    mydate.show();
+    date.show();
+
+    Date *ptrDate=new Date(1,5,6);
+    Date *ptrOneMoreDate=new Date(1,2,2025);
+    ptrDate->show();
+    Date *ptrOneMoreDate=new Date(1,2,2025);
+    ptrOneMoreDate->show();
+    
+
+     
     Account acct123(45,"ravi tambade",56000,date);
     acct123.show();
 

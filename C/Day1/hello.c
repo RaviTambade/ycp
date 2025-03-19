@@ -29,10 +29,6 @@ int count=86;
     float marks;
 };
 
-
-
-
-
 int main(){
     printf("Welcome to Programming");  //output
     count=count+1;  //processing :logic
