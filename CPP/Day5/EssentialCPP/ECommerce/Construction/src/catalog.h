@@ -44,5 +44,27 @@ namespace Catalog{
                 int getStock(){
                     return stock;
                 }
+
+                //Constuctor
+                //It is a special kind of function which is automatically called
+                //once object is created.
+                
+
+                //Constructor Overloading: more than one constructors in a class
+                //default constructor
+                Product(){
+                    id=34;
+                    title="Rose";
+                    description="Valentine Flower";
+                    stock=5600;
+                }
+
+                //Parametrized constructor
+                Product(int i, string t, string d, int s){
+                    id=i;
+                    title=t;
+                    description=d;
+                    stock=s;
+                }
     };
 }
