@@ -1,5 +1,12 @@
 # include <iostream> 
 #include <string.h>
+
+//How to implement Modularity
+//How to define a class
+//How to create object (instance)
+//how to set data to data members belong to object
+//how to show data of object 
+
 namespace Catalog{
 
     class Product{
