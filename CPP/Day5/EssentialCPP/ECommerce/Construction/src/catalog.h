@@ -66,5 +66,12 @@ namespace Catalog{
                     description=d;
                     stock=s;
                 }
+
+                //destructor is special kind of function automatically
+                //called before object is removed from memory
+                
+                ~Product(){
+                    cout<<"Object is getting deinitialized...."<<endl;
+                }
     };
 }

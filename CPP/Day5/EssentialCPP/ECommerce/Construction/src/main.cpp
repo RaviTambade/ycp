@@ -14,7 +14,7 @@ int main(){
 
     // Object is initialized at the time of creation 
 
-     Product p;
+     Product p,p2, p3, p4;
      Product  theProduct(23,"Gerbera", "beautiful flower",5600);
         //instance is created from Class Product
  

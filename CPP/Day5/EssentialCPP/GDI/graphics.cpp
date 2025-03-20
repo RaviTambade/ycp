@@ -3,25 +3,44 @@ using namespace std;
 
 //Abstraction
 
+namespace  Drawing{
 //content class ( 2 dimensional)
 class Point{
+
+    //Encapsulation
+
     private : int x;
               int y;
     public  :
+
+    //getter and setter functions
             void setX(int xx){
                 x=xx;
             }
             int getX(){
                 return x;
             }
+
             void setY(int yy){
                 y=yy;
             }
             int getY(){
                 return y;
             }
-};
 
+            
+            //default constructor
+            Point(){
+                x=0;
+                y=0;
+            }
+
+            //parameterized constructor
+            Point(int xx, int yy){
+                x=xx;
+                y=yy;
+            }
+};
 
 //Container class
 class Circle{
@@ -34,6 +53,7 @@ class Circle{
             Circle(){
                 radius=10;
             }
+
             void setRadius(int r){
                 radius=r;
             }
@@ -50,7 +70,6 @@ class Circle{
                 return center;
             }
 };
-
 
 //Blue Print
 class Line{
@@ -72,6 +91,14 @@ class Line{
 
         Point getEndPoint(){
             return endPoint;
+        }
+
+        Line(){
+            startPoint.setX(0);
+            startPoint.setY(0);
+
+            endPoint.setX(0);
+            endPoint.setY(0); 
         }
 };
 
@@ -105,29 +132,29 @@ class Traingle{
 
 };
 
+}
 
 int main(){
-    Point p1;
+    Drawing::Point p1;
     p1.setX(56);
     p1.setY(76);
 
-    Circle c1;
+    Drawing::Circle c1;
     c1.setCenterPoint(p1);
     c1.setRadius(5);
     cout<<p1.getX()<<","<<p1.getY()<<endl;
     cout<<"Radius ="<<c1.getRadius();
 
-    Traingle t1;
-
-    Point p3;
+    Drawing::Traingle t1;
+    Drawing::Point p3;
     p3.setX(560);
     p3.setY(123);
 
-    Point p4;
+    Drawing::Point p4;
     p4.setX(44);
     p4.setY(78);
 
-    Point p5;
+    Drawing::Point p5;
     p5.setX(87);
     p5.setY(12);
 
@@ -135,18 +162,15 @@ int main(){
     t1.setSecondPoint(p4);
     t1.setThirdPoint(p5);
 
-
-    Point p6;
+    Drawing::Point p6;
     p6.setX(76);
     p6.setY(44);
 
-    Point p7;
+    Drawing::Point p7;
     p7.setX(92);
     p7.setY(11);
 
-    Line l1;
+    Drawing::Line l1;
     l1.setStartPoint(p6);
     l1.setEndPoint(p7);
-
-
 }
