@@ -19,7 +19,6 @@ namespace Catalog{
     };
 }
 
-
 namespace CRM{
     class Customer{
         public:
@@ -30,7 +29,6 @@ namespace CRM{
             int age;
 
     };
-
 }
 
 using namespace std;
